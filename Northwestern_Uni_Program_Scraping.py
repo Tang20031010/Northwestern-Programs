@@ -66,3 +66,4 @@ df = pd.DataFrame(NW_Program, columns=["college", "program_name", "course_title"
                                         "enrollment_fee", "credit_offerred", "tuition", "start_date", "eligibility_requirements",
                                         "grades", "link"])
 df.to_csv('NW_Programs.csv')
+
